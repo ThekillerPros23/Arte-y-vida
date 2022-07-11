@@ -5,7 +5,7 @@ from database.db import *
 from PIL import ImageTk, Image
 import time
 def total_destroy():
-    pass
+   main = 0
 def calendar():
     new = Calendar(root,selectmode = 'day', year = 2022, month=7, day = 11 )
     new.place(x = 0, y = 0)
