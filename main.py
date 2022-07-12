@@ -2,7 +2,6 @@ from select import select
 from tkinter import *
 from tkcalendar import Calendar
 from database.db import *
-from PIL import ImageTk, Image
 import time
 def total_destroy():
    main = 0
