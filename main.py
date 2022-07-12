@@ -3,19 +3,13 @@ from tkinter import *
 from tkcalendar import Calendar
 from database.db import *
 import time
-def total_destroy():
-   main = 0
+
 def calendar():
     new = Calendar(root,selectmode = 'day', year = 2022, month=7, day = 11 )
     new.place(x = 0, y = 0)
 def main():
     root.title("Arte y vida ")
     root.geometry("1366x768")
-    open = Image.open("C:/Users/Derec/")
-    test = ImageTk.PhotoImage(test)
-    label = Label(image=test)
-    label.image = test
-    label.place(x = 0, y = 0)
     nombre = StringVar()
     apellido = StringVar()
     direcion = StringVar()
